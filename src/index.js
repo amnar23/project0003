@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <body>
+      <center>
+        <div>
+        <h1>Hello World!</h1>
+        <p className="s">Let's Start Learning</p>
+        </div>
+      </center>
+    </body>
   </React.StrictMode>,
   document.getElementById('root')
 );
