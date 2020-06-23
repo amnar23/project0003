@@ -1,17 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
+import App from './App';
+//import Hello from './Hello';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <body>
       <center>
-        <div>
-        <h1>Hello World!</h1>
-        <p className="s">Let's Start Learning</p>
-        </div>
+      <div><App name="Amna"/></div>
       </center>
     </body>
   </React.StrictMode>,
